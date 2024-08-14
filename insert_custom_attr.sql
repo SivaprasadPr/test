@@ -1,7 +1,9 @@
 set escape on;
+-- Scope: Set a filter for selecting objects to be updated
 def qualifier = '%'
---Name of 
+--Name of the custom attribure
 def app_name = 'UC4'
+-- Variable reference of the custom attribute
 def name = '\&DOM#'
 
 insert into oca(oca_oh_idnr, oca_name, oca_value)
